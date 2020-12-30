@@ -1,0 +1,40 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+}
+.button {
+  border: none;
+  background-color: var(--ml-grey-very-light);
+  padding: 0 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.bar {
+  background-color: var(--ml-yellow);
+  padding: 1rem 0 1rem 0;
+  overflow: auto;
+}
+
+.input {
+  border: none;
+  padding-left: 1.5rem;
+  font-size: 1.125rem;
+  border-radius: 4px 0 0 4px;
+  flex-grow: 1;
+}
+
+.input:focus,
+.button:focus {
+  outline: none;
+}
+
+.form {
+  padding: 0;
+  display: flex;
+}
+.logo {
+  padding-right: 1.5rem;
+}

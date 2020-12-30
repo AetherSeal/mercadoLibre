@@ -1,0 +1,67 @@
+.container {
+  background: var(--ml-white);
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+.imageContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 680px;
+  object-fit: contain;
+  max-height: 680px;
+}
+.button {
+  margin: 2rem 0 0 0;
+  width: 100%;
+  border: none;
+  background-color: var(--ml-blue);
+  color: var(--ml-grey-very-light);
+  line-height: 45px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 0;
+}
+
+.condition {
+  text-transform: capitalize;
+}
+
+.priceData {
+  font-size: 46px;
+  margin: 2rem 0 0 0;
+}
+.statusContainer {
+  padding-right: 2rem;
+}
+.status {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.titleData {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+.detailSup {
+  font-size: 55%;
+}
+.description {
+  padding: 4.5rem 2rem 2rem 2rem;
+}
+.descriptionTitle {
+  font-size: 28px;
+  padding-bottom: 2rem;
+}
+.descriptionText {
+  font-size: 16px;
+  color: var(--ml-grey-light);
+}
+.preview {
+  padding-top: 2rem;
+}

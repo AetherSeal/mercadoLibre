@@ -1,0 +1,18 @@
+.category {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.resultCategory {
+  margin: 1rem 0;
+  padding: 0;
+  color: var(--ml-grey-light);
+}
+
+.lastCategory {
+  font-weight: bold;
+}
+
+.chevron {
+  margin: 0 0.5rem;
+}
